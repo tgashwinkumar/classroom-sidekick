@@ -2,16 +2,20 @@ import './App.css';
 import Home from './pages/Home';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Scheduler from './pages/Scheduler';
 
 function App() {
   return (
     <div className="App">
-      {(false) ? <Navbar/> : <></>}
+      {(window.location.pathname !== "/") ? <Navbar/> : <></>}
       <Router>
         <Switch>
-            <Route path="/">
-              <Home />
-            </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+          <Route path="/scheduler">
+            <Scheduler />
+          </Route>
         </Switch>
       </Router>
     </div>
