@@ -10,11 +10,11 @@ function App() {
       {(window.location.pathname !== "/") ? <Navbar/> : <></>}
       <Router>
         <Switch>
-          <Route path="/">
+          {/* <Route path="/">
             <Home />
-          </Route>
-          <Route path="/scheduler">
-            <Scheduler />
+          </Route> */}
+          <Route path="/">
+              <Scheduler />
           </Route>
         </Switch>
       </Router>

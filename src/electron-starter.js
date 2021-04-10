@@ -6,7 +6,7 @@ const url = require('url')
 //     require('electron-reloader')(module)
 // } catch (_) {}
 
-const windowOptions = {
+const mainWindowOptions = {
     width: 800,
     height: 600,
     webPreferences: {
@@ -17,19 +17,22 @@ const windowOptions = {
 }
 
 
-
 const createWindow = () => {
+    
     const win = new BrowserWindow({
-        ...windowOptions,
+        ...mainWindowOptions,
         preload: path.join(__dirname, 'preload.js'), 
-    })
+    });
+    
     win.maximize()
     const startUrl = process.env.ELECTRON_START_URL || url.format({
         pathname: path.join(__dirname, '/../build/index.html'),
         protocol: 'file:',
         slashes: true
     });
+
     win.loadURL(startUrl);
+
 }
 
 app.whenReady().then(() => {

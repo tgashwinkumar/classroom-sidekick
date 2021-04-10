@@ -1,0 +1,184 @@
+{
+    "table":[
+        {
+            "dayId" : 0,
+            "dayName" : "Monday",
+            "periods" : [
+                {
+                    "periodsId": 0,
+                    "periodName": null
+                },
+                {
+                    "periodsId": 1,
+                    "periodName": "Digital Design"
+                },
+                {
+                    "periodsId": 2,
+                    "periodName": "Transforms"
+                },
+                {
+                    "periodsId": 3,
+                    "periodName": null
+                },
+                {
+                    "periodsId": 4,
+                    "periodName": "Language"
+                },
+                {
+                    "periodsId": 5,
+                    "periodName": "Electives"
+                }
+            ]
+        },
+        {
+            "dayId" : 1,
+            "dayName" : "Tuesday",
+            "periods" : [
+                {
+                    "periodsId": 0,
+                    "periodName": null
+                },
+                {
+                    "periodsId": 1,
+                    "periodName": "Digital Design"
+                },
+                {
+                    "periodsId": 2,
+                    "periodName": "Transforms"
+                },
+                {
+                    "periodsId": 3,
+                    "periodName": null
+                },
+                {
+                    "periodsId": 4,
+                    "periodName": "Language"
+                },
+                {
+                    "periodsId": 5,
+                    "periodName": "Electives"
+                }
+            ]
+        },
+        {
+            "dayId" : 2,
+            "dayName" : "Wednesday",
+            "periods" : [
+                {
+                    "periodsId": 0,
+                    "periodName": null
+                },
+                {
+                    "periodsId": 1,
+                    "periodName": "Digital Design"
+                },
+                {
+                    "periodsId": 2,
+                    "periodName": "Transforms"
+                },
+                {
+                    "periodsId": 3,
+                    "periodName": null
+                },
+                {
+                    "periodsId": 4,
+                    "periodName": "Language"
+                },
+                {
+                    "periodsId": 5,
+                    "periodName": "Electives"
+                }
+            ]
+        },
+        {
+            "dayId" : 3,
+            "dayName" : "Thursday",
+            "periods" : [
+                {
+                    "periodsId": 0,
+                    "periodName": null
+                },
+                {
+                    "periodsId": 1,
+                    "periodName": "Digital Design"
+                },
+                {
+                    "periodsId": 2,
+                    "periodName": "Transforms"
+                },
+                {
+                    "periodsId": 3,
+                    "periodName": null
+                },
+                {
+                    "periodsId": 4,
+                    "periodName": "Language"
+                },
+                {
+                    "periodsId": 5,
+                    "periodName": "Electives"
+                }
+            ]
+        },
+        {
+            "dayId" : 4,
+            "dayName" : "Friday",
+            "periods" : [
+                {
+                    "periodsId": 0,
+                    "periodName": null
+                },
+                {
+                    "periodsId": 1,
+                    "periodName": "Digital Design"
+                },
+                {
+                    "periodsId": 2,
+                    "periodName": "Transforms"
+                },
+                {
+                    "periodsId": 3,
+                    "periodName": null
+                },
+                {
+                    "periodsId": 4,
+                    "periodName": "Language"
+                },
+                {
+                    "periodsId": 5,
+                    "periodName": "Electives"
+                }
+            ]
+        },
+        {
+            "dayId" : 5,
+            "dayName" : "Saturday",
+            "periods" : [
+                {
+                    "periodsId": 0,
+                    "periodName": null
+                },
+                {
+                    "periodsId": 1,
+                    "periodName": "Digital Design"
+                },
+                {
+                    "periodsId": 2,
+                    "periodName": "Transforms"
+                },
+                {
+                    "periodsId": 3,
+                    "periodName": null
+                },
+                {
+                    "periodsId": 4,
+                    "periodName": "Language"
+                },
+                {
+                    "periodsId": 5,
+                    "periodName": "Electives"
+                }
+            ]
+        }
+    ]
+}

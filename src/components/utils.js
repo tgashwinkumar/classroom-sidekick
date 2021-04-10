@@ -67,6 +67,71 @@ export const timetable = {
             dayName: 'Monday',
             periods: [
                 {
+                    periodId: 0,  periodName: null,
+                },
+                {
+                    periodId: 1, periodName: 'Digital Design',
+                },
+                {
+                    periodId: 2, periodName: 'Transforms and Applications',
+                },
+                {
+                    periodId: 3, periodName: null,
+                },
+                {
+                    periodId: 4, periodName: 'Language Electives'
+                }
+            ]
+        },
+        {
+            dayId: 1,
+            dayName: 'Tuesday',
+            periods: [
+                {
+                    periodId: 0, periodName: null,
+                },
+                {
+                    periodId: 1,  periodName: 'Digital Design',
+                },
+                {
+                    periodId: 2, periodName: 'Transforms and Applications',
+                },
+                {
+                    periodId: 3,  periodName: 'Materials Science'
+                },
+                {
+                    periodId: 4, periodName: 'Language Electives'
+                }
+            ]
+        },
+        {
+            dayId: 2,
+            dayName: 'Wednesday',
+            periods: [
+                {
+                    periodId: 0, periodName: null,
+                },
+                { periodName: 'Digital Design',
+                },
+                {
+                    periodId: 2,
+                    periodName: 'Transforms and Applications',
+                },
+                {
+                    periodId: 3,
+                    periodName: 'Materials Science'
+                },
+                {
+                    periodId: 4,
+                    periodName: 'Language Electives'
+                }
+            ]
+        },
+        {
+            dayId: 3,
+            dayName: 'Thursday',
+            periods: [
+                {
                     periodId: 0,
                     periodName: null,
                 },
@@ -84,7 +149,85 @@ export const timetable = {
                 },
                 {
                     periodId: 4,
-                    
+                    periodName: 'Language Electives'
+                }
+            ]
+        },
+        {
+            dayId: 4,
+            dayName: 'Friday',
+            periods: [
+                {
+                    periodId: 0,
+                    periodName: null,
+                },
+                {
+                    periodId: 1,
+                    periodName: 'Digital Design',
+                },
+                {
+                    periodId: 2,
+                    periodName: 'Transforms and Applications',
+                },
+                {
+                    periodId: 3,
+                    periodName: 'Materials Science'
+                },
+                {
+                    periodId: 4,
+                    periodName: 'Language Electives'
+                }
+            ]
+        },
+        {
+            dayId: 5,
+            dayName: 'Saturday',
+            periods: [
+                {
+                    periodId: 0,
+                    periodName: null,
+                },
+                {
+                    periodId: 1,
+                    periodName: 'Digital Design',
+                },
+                {
+                    periodId: 2,
+                    periodName: 'Transforms and Applications',
+                },
+                {
+                    periodId: 3,
+                    periodName: 'Materials Science'
+                },
+                {
+                    periodId: 4,
+                    periodName: 'Language Electives'
+                }
+            ]
+        },
+        {
+            dayId: 6,
+            dayName: 'Sunday',
+            periods: [
+                {
+                    periodId: 0,
+                    periodName: null,
+                },
+                {
+                    periodId: 1,
+                    periodName: 'Digital Design',
+                },
+                {
+                    periodId: 2,
+                    periodName: 'Transforms and Applications',
+                },
+                {
+                    periodId: 3,
+                    periodName: 'Materials Science'
+                },
+                {
+                    periodId: 4,
+                    periodName: 'Language Electives'
                 }
             ]
         }

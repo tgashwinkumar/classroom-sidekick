@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "startTime": "8.30 AM",
+        "endTime": "9.20 AM"
+    },
+    {
+        "id": 1,
+        "startTime": "9.30 AM",
+        "endTime": "10.30 AM"
+    },
+    {
+        "id": 2,
+        "startTime": "11.00 AM",
+        "endTime": "12.00 PM"
+    },
+    {
+        "id": 3,
+        "startTime": "2.00 PM",
+        "endTime": "3.00 PM"
+    },
+    {
+        "id": 4,
+        "startTime": "3.30 PM",
+        "endTime": "4.30 PM"
+    }
+]
